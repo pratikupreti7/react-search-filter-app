@@ -1,0 +1,24 @@
+.home{
+    display:flex;
+    flex-direction: column;
+    height: 100vh;
+}
+.filter-list-wrap,.filter-wrap,.list-wrap{
+    overflow-y:auto;
+}
+.filter-list-wrap{
+    flex: 1;
+display: flex;
+
+
+}
+.filter-wrap{
+
+    flex-basis: 280px;
+    padding: 1rem;
+}
+.list-wrap{
+    flex: 1;
+    padding: 1rem;
+}
+
